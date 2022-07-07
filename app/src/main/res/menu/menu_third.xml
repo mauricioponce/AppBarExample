@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.beetrack.appbarexample.MainActivity">
+    <item
+        android:id="@+id/action_rowing_third"
+        android:orderInCategory="100"
+        android:title="@string/action_search_third"
+        android:iconTint="@color/white"
+        android:icon="@drawable/ic_baseline_rowing_24"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/action_refresh_third"
+        android:orderInCategory="100"
+        android:title= "@string/action_refresh_third"
+        android:iconTint="@color/white"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>
